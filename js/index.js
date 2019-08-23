@@ -7,6 +7,6 @@ main.addEventListener('click', function(event) {
 });
 
 const input = document.querySelector('input');
-input.addEventListener('keydown', function(fuck, hello){
-  console.log(fuck.key, hello.key)
+input.addEventListener('keydown', function(fuck){
+  console.log(fuck.key)
 })
