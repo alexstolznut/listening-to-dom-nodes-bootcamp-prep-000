@@ -3,6 +3,6 @@
 let main = document.getElementById('main');
 
 main.addEventListener('click', function(event) {
-  console.log('clicked');
+  window.console.log('clicked');
   alert('I was clicked!');
 });
