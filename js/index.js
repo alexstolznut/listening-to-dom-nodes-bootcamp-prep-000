@@ -3,6 +3,5 @@
 let main = document.getElementById('main');
 
 main.addEventListener('click', function(event) {
-  window.console.log('clicked');
   alert('I was clicked!');
 });
