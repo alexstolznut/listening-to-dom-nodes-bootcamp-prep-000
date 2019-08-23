@@ -13,4 +13,15 @@ input.addEventListener('keydown', function(e){
   } else {
   console.log(e.key)
 }
-})
+});
+
+let divs = documents.querySelectorAll('div');
+
+function bubble(e) {
+
+  console.log(this.firstChild.nodeValue.trim() + ' bubbled');
+}
+
+for (let i = 0; i < divs.length; i++) {
+  div[i].addEventListener('click', bubble);
+}
