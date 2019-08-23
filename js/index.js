@@ -27,5 +27,5 @@ function capture(e){
 }
 
 for (let i = 0; i < divs.length; i++) {
-  divs[i].addEventListener('click', capture, true);
+  divs[i].addEventListener('click', bubble, true);
 }
