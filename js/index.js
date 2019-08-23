@@ -15,7 +15,7 @@ input.addEventListener('keydown', function(e){
 }
 });
 
-let divs = documents.querySelectorAll('div');
+let divs = document.querySelectorAll('div');
 
 function bubble(e) {
 
